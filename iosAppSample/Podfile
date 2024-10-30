@@ -1,0 +1,5 @@
+target 'iosAppSample' do
+  use_frameworks!
+  platform :ios, '16.0'
+  pod 'kmp_persian_datetime', :path => '../kmp_persian_datetime'
+end
