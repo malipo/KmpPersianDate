@@ -60,9 +60,17 @@ class PersianDate {
 
     /**
      * Creates a new PersianDate instance with the current system time
+     */
+    constructor() {
+        this.formatPattern = DEFAULT_FORMAT
+        initializeDate()
+    }
+
+    /**
+     * Creates a new PersianDate instance with the current system time
      * @param formatPattern Date format pattern to use (defaults to ISO-8601 format)
      */
-    constructor(formatPattern: String = DEFAULT_FORMAT) {
+    constructor(formatPattern: String) {
         this.formatPattern = formatPattern
         initializeDate()
     }

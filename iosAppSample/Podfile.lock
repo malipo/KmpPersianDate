@@ -1,0 +1,16 @@
+PODS:
+  - kmp_persian_datetime (1.0.1)
+
+DEPENDENCIES:
+  - kmp_persian_datetime (from `../kmp_persian_datetime`)
+
+EXTERNAL SOURCES:
+  kmp_persian_datetime:
+    :path: "../kmp_persian_datetime"
+
+SPEC CHECKSUMS:
+  kmp_persian_datetime: dd7ac0e1232016e68732ffaa22b6ff6d777f7569
+
+PODFILE CHECKSUM: 7d8873f0ff92e344b5e26e27c621fbe532f33eb0
+
+COCOAPODS: 1.16.2

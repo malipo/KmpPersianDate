@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
                         DateView(PersianDate().getFullDatetimeWithMonthNumber("2025-03-21T18:01:41Z"))
                         DateView(PersianDate().daysAgo("2024-10-26T12:01:41Z"))
 
-                        val persianDate = PersianDate(formatPattern = "2024-10-29T11:32:41Z")
+                        val persianDate = PersianDate()
                         DateView(persianDate.getShYear().toString())
 
 
