@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'kmp_persian_datetime'
-    spec.version                  = '1.0'
+    spec.version                  = '1.0.1'
     spec.homepage                 = 'Link to the Shared Module homepage'
     spec.source                   = { :http=> ''}
     spec.authors                  = ''
@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
     spec.summary                  = 'Some description for the Shared Module'
     spec.vendored_frameworks      = 'build/cocoapods/framework/kmp_persian_datetime.framework'
     spec.libraries                = 'c++'
-    spec.ios.deployment_target    = '16.0'
+    spec.ios.deployment_target    = '13.0'
                 
                 
     if !Dir.exist?('build/cocoapods/framework/kmp_persian_datetime.framework') || Dir.empty?('build/cocoapods/framework/kmp_persian_datetime.framework')
